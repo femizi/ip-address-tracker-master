@@ -107,6 +107,9 @@ button img {
   height: 100%;
 }
 @media screen and (max-width: 600px) {
+  main{
+    padding: 0 0;
+  }
   .mid-box{
     grid-template-columns: 1fr;
     text-align: center;
