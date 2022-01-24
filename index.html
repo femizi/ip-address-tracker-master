@@ -34,36 +34,40 @@
   <body>
     <main>
       <div class="top-box">
+
         <h1>IP Address Tracker</h1>
-        <input
+        <div class="input-box">
+          <input
           type="text"
           name=""
           id="search"
           placeholder="Search for any IP address or domain"
         />
-        <button>
+        <button id="submit">
           <img src="images/icon-arrow.svg" alt="right-arrow" />
         </button>
+        </div>
+        
       </div>
       <div class="mid-box">
         <div>
           <div>IP Address</div>
-          <div></div>
+          <div class="answers" id="ip-answer"></div>
         </div>
         <div>
           <div>Location</div>
-          <div></div>
+          <div class="answers" id="location-answer"></div>
         </div>
         <div>
           <div>Timezone</div>
-          <div>
+          <div class="answers" id="timezone-answer">
             UTC
             <!-- add offset value dynamically using the API -->
           </div>
         </div>
-        <div>
+        <div id="no-border">
           <div>ISP</div>
-          <div></div>
+          <div class="answers" id="isp-answer" ></div>
         </div>
       </div>
       <div class="last-box">
